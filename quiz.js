@@ -172,14 +172,15 @@ function next(){
 		$('#board').show();
 		$('#question').remove();
 		$('#quiz').hide();
-		var scoreRslt = displayResult();
-		quizSpace1.append(scoreRslt).fadeIn();
 		$('#user').hide();
 		$('#save').hide()
 		$('#start').hide();
 		$('#leader').hide();
 		$('#reattempt').hide();
         $('#home').show();
+		var scoreRslt = displayResult();
+		quizSpace1.append(scoreRslt).fadeIn();
+		
 	}
   function displayResult() 
     {
