@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<title>Quiz App</title>
+		<link rel="stylesheet" href="quiz.css">
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	</head>
+	<body>
+		<div id="container">
+            <h1 id="head">Quiz App</h1>
+  			<h1 id="board">High Scores</h1>
+			<center>
+			<div id="test"></div>
+			<div class="score" id="score"><h4>Score<h4></div>
+			<br><br>
+			<div class="button" id="score1"></div>
+			<div id="quiz"></div>
+			<div id="quiz1"></div>
+			<div class="button1" id="start"><a href="#">Play</a></div><br>
+    		<div class="button1" id="leader"><a href="#">High Scores</a></div>
+			<div><input type="text" id="user" placeholder = "user name" onkeyup="EnableDisable(this)"></div><br>
+			<div><input id="save" type="button" value="Save" disabled="disabled"></div><br>
+			<div class="button1" id="reattempt"><a href="javascript:location.reload(true)">Play Again</a></div><br>
+			<div class="button1" id="home"><a href="javascript:location.reload(true)">Go Home</a></div> 
+			<div class="button" id="next"><a href="#">Next</a></div>
+			</center>		
+    	</div>
+        <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+		<script src="quiz.js"></script>
+	</body>
+</html>

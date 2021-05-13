@@ -1,0 +1,99 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: left;
+}
+progress[value]{
+  width: 250px;
+  height: 15px;
+}
+#save,#score1,#score,#user,#next,#home,#board,#reattempt{
+	display:none;
+}
+#save{
+	width: 80px;
+    height: 25px;
+    text-align: center;
+    background-color: #555;
+    margin: 0 2px 0 2px;
+    border-radius: 8px;
+	border: none;
+	cursor:not-allowed;
+}
+#user{
+	text-align: center;
+}
+.score {
+    width: 80px;
+    height: 25px;
+    text-align: center;
+    float:right;
+    margin: 0 2px 0 2px;
+}
+.button {
+    width: 80px;
+    height: 25px;
+    text-align: center;
+    float:right;
+    background-color: #555;
+    margin: 0 2px 0 2px;
+    cursor: pointer;
+	border-radius: 8px;
+}
+.button1{
+    width: 80px;
+    height: 25px;
+    text-align: center;
+    background-color: #555;
+    margin: 0 2px 0 2px;
+    cursor: pointer;
+	border-radius: 8px;
+}
+.button a, .button1 a,#save{
+    text-decoration: none;
+    color: #fff;
+    line-height: 25px;
+}
+#container{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 8px;
+	Background : #fff; 
+	color: #555;
+	width: 55rem;
+	padding: 2.5rem;
+	box-sizing: border-box;
+	box-shadow: 0 0 10px 0 #999;
+	Font-size: 18px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 500px;
+}
+ul li{
+    background: #fff;
+    width: 200px;
+    margin: 10px;
+    padding: 5px;
+    display: inline-block; 
+	box-shadow: 0 0 5px 0 #999;
+}
+#start,#leader,#save,#home,#reattempt{
+    width: 150px;
+	height: 30px;
+}
+#score1,#score,#next{
+	width: 100px;
+	height: 30px;
+}
+input[type="radio"]{
+    cursor: pointer;
+}
